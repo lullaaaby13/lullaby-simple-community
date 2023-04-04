@@ -1,10 +1,10 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: 'jdbc:mariadb://49.247.147.147:3306/lullaby'
+    url: {{url}}
     hikari:
-      username: 'lullaby'
-      password: 'lullaby!@#'
+      username: {{username}}
+      password: {{password}}
 
   jpa:
     hibernate:
